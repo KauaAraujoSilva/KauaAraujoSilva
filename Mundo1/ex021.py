@@ -1,0 +1,1 @@
+'''era pra botar uma musica aq, so que deu preguiça de baixar etckkkkk, qualquer coisa ve a aula 21 do curso em video de python'''

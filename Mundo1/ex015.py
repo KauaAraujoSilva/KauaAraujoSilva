@@ -1,0 +1,5 @@
+dia = int(input("Quantos dias foi usado?: "))
+quil = float(input("Quantos Km foram percorridos?: "))
+total = (dia * 60) + (quil * 0.15)  
+print("Você usou o carro por {} dias e percorreu {:.1f} Km".format(dia, quil))
+print("O total a pagar é de R$ {:.2f}".format(total))
