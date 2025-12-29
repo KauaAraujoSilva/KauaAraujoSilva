@@ -1,3 +1,4 @@
 n = int(input('Digite um numero: '))
-for c in range(n+1):
+for c in range(n):
     print(c)
+#testando git
