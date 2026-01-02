@@ -1,12 +1,17 @@
-somid=0
-for i in range(1, 3):
+quant = 0
+for i in range(4):
     print('-=-'*10)
-    # nome = str(input(f'Digite o nome da {i}° pessoa: '))
-    idade = int(input(f'Digite a idade da {i}° pessoa: '))
-    # sexo = bool(input(f'Digite o sexo da {i}° pessoa: '))
-    somid+=i
-    # print('-=-'*10)
-    if somid:
-        media=somid/i
-        print('A media é: {}'.format(media))
+    sexo = str(input('Digite o seu sexo(M/F): '))
+    x = sexo.upper()
+    
+    print(x)
+    if x=='M':
+        print('diferente de m', x)
+    elif x!='F':
+        print('diferente de f', x)
+    else:
+        print('what is', x)
+    quant+=x
+print(f'A media da idade do grupo é igual à: {quant/(i+1)}')
+        
 #leia nome, idade e sexo de 4 pessoas. Mostre a media da idade do grupo. O nome do homem mais velho. Quantas mulheres tem menos de 20anos
