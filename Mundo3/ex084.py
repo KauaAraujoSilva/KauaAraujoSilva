@@ -19,4 +19,4 @@ while True:
         break
 print(f'Você cadastrou {i} pessoas')
 print(Listing)
-print(weight*)
+print(weight)
